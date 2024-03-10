@@ -1,7 +1,7 @@
 body {
     background-color: black; /* Set background color to black */
     color: white; /* Set text color to white */
-    font-family: Blacklight, sans-serif;
+    font-family: monospace, sans-serif;
     margin: 0;
     padding: 0;
 }
