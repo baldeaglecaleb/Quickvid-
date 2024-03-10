@@ -1,9 +1,14 @@
 body {
     background-color: black; /* Set background color to black */
     color: white; /* Set text color to white */
-    font-family: monospace, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.title {
+    text-align: center; /* Center align the title */
+    margin-top: 50px; /* Add margin to the top of the title */
 }
 
 .container {
@@ -14,9 +19,10 @@ body {
 }
 
 .textbox {
-    background-color: white; /* Set background color of text boxes to white */
-    padding: 10px;
-    border-radius: 3px;
+    background-color: #444; /* Set background color of text boxes to grey */
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* Increase width of the textbox */
 }
 
 .textbox input {
@@ -26,8 +32,4 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-}
-
-.title {
-    text-align: center; /* Center align the title */
 }
