@@ -34,3 +34,22 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
+
+.submit-button {
+    margin-top: 20px; /* Add margin to separate the submit button from the text boxes */
+    text-align: center; /* Center align the submit button */
+}
+
+.submit-button button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #2ECC71; /* Set background color of the button */
+    color: white; /* Set text color of the button */
+    border: none; /* Remove border from the button */
+    border-radius: 3px; /* Apply border-radius to create rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.submit-button button:hover {
+    background-color: #27AE60; /* Change background color of the button on hover */
+}
+
