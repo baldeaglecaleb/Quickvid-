@@ -19,7 +19,7 @@ body {
 }
 
 .textbox {
-    background-color: #18191A; /* Set background color of text boxes to grey */
+    background-color: #3a3b3c; /* Set background color of text boxes */
     padding: 20px;
     border-radius: 5px;
     width: 60%; /* Adjust width of the textbox */
@@ -28,7 +28,7 @@ body {
 
 .textbox input {
     display: block;
-    width: 70%;
+    width: 100%; /* Set width to 100% */
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -36,13 +36,13 @@ body {
 }
 
 .submit-button {
-    margin-top: 20px; /* Add margin to separate the submit button from the text boxes */
+    margin-top: 50px; /* Add margin to separate the submit button from the text boxes */
     text-align: center; /* Center align the submit button */
 }
 
 .submit-button button {
     padding: 10px 20px; /* Add padding to the button */
-    background-color: #2ECC71; /* Set background color of the button */
+    background-color: #3a3b3c; /* Set background color of the button */
     color: white; /* Set text color of the button */
     border: none; /* Remove border from the button */
     border-radius: 3px; /* Apply border-radius to create rounded corners */
@@ -50,6 +50,6 @@ body {
 }
 
 .submit-button button:hover {
-    background-color: #27AE60; /* Change background color of the button on hover */
+    background-color: #454647; /* Change background color of the button on hover */
 }
 
