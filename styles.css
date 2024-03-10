@@ -23,7 +23,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     width: 60%; /* Adjust width of the textbox */
-    max-width: 600px; /* Set maximum width of the textbox */
+    max-width: 300px; /* Set maximum width of the textbox */
 }
 
 .textbox input {
