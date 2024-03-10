@@ -39,8 +39,8 @@ body {
 }
 
 .submit-button {
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 100px; /* Move the submit button down by 100 pixels */
+    text-align: center; /* Center align the submit button */
 }
 
 .submit-button button {
