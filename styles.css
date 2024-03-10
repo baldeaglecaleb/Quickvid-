@@ -32,7 +32,11 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    width: calc(100% - 22px); /* Adjust width to fit evenly within the grey background */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
 }
+
 
 .submit-button {
     text-align: center;
