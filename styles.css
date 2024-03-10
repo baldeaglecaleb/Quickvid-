@@ -8,50 +8,33 @@ body {
 
 .title {
     text-align: center;
-    margin-top: 200px;
+    position: absolute;
+    top: calc(50vh - 150px); /* Halfway between the top of the grey text background square and the top of the screen */
+    left: 0;
+    right: 0;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.textbox {
+    position: absolute;
+    top: calc(50vh - 100px); /* 200 pixels up and down */
+    left: calc(50vw - 100px); /* Center horizontally */
+    width: 200px; /* Make it a perfect square */
+    height: 200px; /* Make it a perfect square */
     background-color: #3a3b3c;
     padding: 20px;
     border-radius: 5px;
-    width: 60%;
-    max-width: 450px;
-    position: absolute; /* Position the box absolutely */
-    top: 50%; /* Move the box down by 50% of its container's height */
-    left: 50%; /* Move the box right by 50% of its container's width */
-    transform: translate(-50%, -50%); /* Adjust the position to center */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 .textbox input {
-    display: block;
-    width: 90%;
-    margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
 .submit-button {
-    margin-top: 50px; /* Move the submit button down by 100 pixels */
-    text-align: center; /* Center align the submit button */
-}
-
-.submit-button button {
-    padding: 10px 20px;
-    background-color: #3a3b3c;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.submit-button button:hover {
-    background-color: #454647;
+    text-align: center;
+    margin-top: auto; /* Push the submit button to halfway between the bottom of the grey text background and the bottom of the screen */
 }
