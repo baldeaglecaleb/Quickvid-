@@ -23,9 +23,12 @@ body {
     padding: 20px;
     border-radius: 5px;
     width: 60%;
-    max-width: 400px;
+    max-width: 450px;
+    position: absolute; /* Position the box absolutely */
+    top: 50%; /* Move the box down by 50% of its container's height */
+    left: 50%; /* Move the box right by 50% of its container's width */
+    transform: translate(-50%, -50%); /* Adjust the position to center */
 }
-
 .textbox input {
     display: block;
     width: 100%;
