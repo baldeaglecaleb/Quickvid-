@@ -19,10 +19,11 @@ body {
 }
 
 .textbox {
-    background-color: #444; /* Set background color of text boxes to grey */
+    background-color: #808080; /* Set background color of text boxes to grey */
     padding: 20px;
     border-radius: 5px;
-    width: 80%; /* Increase width of the textbox */
+    width: 60%; /* Adjust width of the textbox */
+    max-width: 600px; /* Set maximum width of the textbox */
 }
 
 .textbox input {
